@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/fancycolor"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/llRecorder"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivRecorder"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/recorder_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recorder" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llEcharts"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivEcharts"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/echarts_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Echarts" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
